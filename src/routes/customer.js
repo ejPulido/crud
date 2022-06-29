@@ -15,7 +15,7 @@ const mysql = require('mysql')
 
  }) */
 
- const connection = mysql.createPool({
+ const connection = mysql.createConnection({
     host: 'd5c8y7saavsm.us-east-2.psdb.cloud',
     user: 'qmu8uioqo3ga',
     password: 'pscale_pw_7uvY9EXt3z37e2YfrFdjGHEnrCszQtd1atrs3Q4MYHU',
@@ -23,14 +23,14 @@ const mysql = require('mysql')
     ssl: true
 })
 
-/*  connection.connect(err => {
+ connection.connect(err => {
     if (err) {
       console.error('An error occurred while connecting to the DB')
       throw err
     }
     console.log('Conectado con el identificador ' + connection.threadId);
   })
- */
+
 
 
 //definiendo las rutas 
