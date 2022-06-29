@@ -15,22 +15,22 @@ const mysql = require('mysql')
 
  }) */
 
- const connection = mysql.createConnection({
+ const connection = mysql.createPool({
     host: 'd5c8y7saavsm.us-east-2.psdb.cloud',
-    user: 'ab7bugyqj7mj',
-    password: 'pscale_pw_yipN3ET5FlyKsDvXNz6NYbrPPoTuM9EOS6evt-v8PY4',
+    user: 'dn9pgn8hmic7',
+    password: 'pscale_pw_Nioqw8GXF_v2W9jyrPtLjW7Sv3eP2_k5ijzRV-_zUU0',
     database: 'crudnode',
     ssl: true
 })
 
- connection.connect(err => {
+/*  connection.connect(err => {
     if (err) {
       console.error('An error occurred while connecting to the DB')
       throw err
     }
     console.log('Conectado con el identificador ' + connection.threadId);
   })
-
+ */
 
 
 //definiendo las rutas 

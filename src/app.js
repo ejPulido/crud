@@ -4,6 +4,8 @@ const path = require('path')
 
 const app = express();
 
+//hay error con conexion de base de datps
+
 //importacion de rutas y controladores
 const customerRoutes = require('./routes/customer.js')
 
