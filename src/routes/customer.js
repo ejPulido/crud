@@ -17,8 +17,8 @@ const mysql = require('mysql')
 
  const connection = mysql.createConnection({
     host: 'd5c8y7saavsm.us-east-2.psdb.cloud',
-    user: '9pr408p2ceyv',
-    password: 'pscale_pw_un4yljpwy01NxatuT56FzuoxkNPrr55GuJ2X_fMGhZ0',
+    user: 'q88rttdpobfx',
+    password: 'pscale_pw_t7MJ3z4nBIYC2kyGDqq97ZEg8qT2jWvDJWyR7bv18TI',
     database: 'crudnode',
     ssl: true
 })
