@@ -9,6 +9,7 @@ const customerRoutes = require('./routes/customer.js')
 
 //settings
 var port = process.env.PORT || 9000;
+const host  = '0.0.0.0';
 app.set('views', path.join(__dirname,'views'));
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.urlencoded({ extended: false}))
@@ -19,6 +20,6 @@ app.use('/', customerRoutes)
 
 
 
-app.listen(port, ()=>{
+app.listen(port,host, ()=>{
     console.log(`server connect in port ${port}`);
 }) 
