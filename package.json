@@ -4,7 +4,9 @@
   "description": "Crud para evaluacion",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node app.js"
+
   },
   "author": "Ejpulido",
   "license": "ISC",
